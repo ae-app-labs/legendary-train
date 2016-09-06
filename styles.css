@@ -1,0 +1,92 @@
+/*************************************/
+/*  Common styles                    */
+/*************************************/
+
+*{
+    margin: 0;
+}
+
+html, body{
+    height:100%;
+}
+
+h1, h2, h3{
+    margin-bottom: 20px;
+}
+
+header{
+    background-image: url("images/Jellyfish.jpg");
+}
+
+nav{
+    position:fixed;
+    width:100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 99;
+}
+
+footer{
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar-brand {
+    color: #f0ad4e !important;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+/*************************************/
+/*  Sections                         */
+/*************************************/
+
+.section{
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sub-section{
+    height: 50%;
+    background-color: azure;
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+}
+
+#section-1{
+    background-image: url("images/image-01.jpg");
+}
+
+#section-2{
+    background-image: url("images/image-02.jpg");
+}
+
+#section-3{
+    background-image: url("images/image-03.jpg")
+}
+
+/*************************************/
+/*  Intro Section styles             */
+/*************************************/
+
+.intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.intro-text .intro-lead-in {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.intro-text .intro-heading {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
